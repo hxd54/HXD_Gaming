@@ -1,2 +1,1 @@
-# HXD_Gaming
-a platform to explore your favorite Video Games
+A platform For your Favorite Games
