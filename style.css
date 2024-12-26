@@ -175,24 +175,24 @@ header{
     font-size: 1.6rem;
 }
 
-.home{
-    position: relative;
-    min-height: 540px;
-    display: flex;
+.hero{
+    width: 100%;
+    min-height: 440px;
+    background: var(--dark-color);
+    display: grid;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-    margin-top: 4rem;
 }
 
-.home img{
-    position: relative;
-    width: 960px;
-    height: 540px;
-    margin-right: 220px;
-    object-fit: cover;
-    border-radius: 1.4rem;
-    z-index: -1;
+.home-text{
+    color: var(--container-text-color);
+    text-align: center;
 }
+
+.home-title{
+    font-size: 3.5rem;
+}
+
 
 .btn{
     background: var(--main-color);
@@ -1135,6 +1135,7 @@ html::-webkit-scrollbar{
 
         padding: 10px 0;
     }
+
 
     .home img {
         position: relative;
